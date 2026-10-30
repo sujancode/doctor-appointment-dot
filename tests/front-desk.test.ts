@@ -1,4 +1,4 @@
-import { defineTest } from "@voice-agent/sdk";
+import { defineTest } from "polka-cli";
 
 // Run on every build in the test environment; production only takes a deployment whose tests passed.
 export default [

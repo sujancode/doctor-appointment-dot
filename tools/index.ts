@@ -1,8 +1,8 @@
-import { defineTools } from "@voice-agent/sdk";
+import { defineTools } from "polka-cli";
 
 // Your own code, run by the platform during a call. `env` is the environment's variables:
-//   voiceagent vars set SCHEDULING_API_URL https://api.your-clinic.example/v1   (or Variables on the project's page)
-//   voiceagent vars set SCHEDULING_API_KEY …
+//   polka vars set SCHEDULING_API_URL https://api.your-clinic.example/v1   (or Variables on the project's page)
+//   polka vars set SCHEDULING_API_KEY …
 // Without them (as in test), a demo schedule answers: weekdays 9am to 5pm, some times taken,
 // and a booking is confirmed with a reference but kept nowhere.
 

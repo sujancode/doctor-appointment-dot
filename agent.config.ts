@@ -1,4 +1,4 @@
-import { defineAgent } from "@voice-agent/sdk";
+import { defineAgent } from "polka-cli";
 
 // The front desk of Maple Street Family Clinic: it answers the phone, books appointments with
 // its tools (find_slots, then book_appointment), and answers questions about the clinic from

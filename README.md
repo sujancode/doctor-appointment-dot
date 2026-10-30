@@ -1,6 +1,6 @@
 # Clinic front desk
 
-An example voice agent project: the phone front desk of Maple Street Family Clinic, a doctor's
+An example dot: the phone front desk of Maple Street Family Clinic, a doctor's
 office that books appointments.
 
 - `agent.config.ts`: who the agent is and what it does (and never does: medical advice)
@@ -14,7 +14,7 @@ deployed to test and tested. Promote a passing deployment to go live.
 The tools answer from a demo schedule until you point them at your scheduling system, per
 environment: `SCHEDULING_API_URL` (`GET /slots?day=YYYY-MM-DD` → `{ times }`,
 `POST /appointments` → `{ reference }`) and `SCHEDULING_API_KEY`, in Variables on the project's
-page or with `npx voiceagent vars set`.
+page or with `npx polka vars set`.
 
-From a terminal instead: `npm install`, `npx voiceagent login --key va_test_…`,
-`npx voiceagent deploy`, `npx voiceagent test`.
+From a terminal instead: `npm install`, `npx polka login --key va_test_…`,
+`npx polka deploy`, `npx polka test`.
